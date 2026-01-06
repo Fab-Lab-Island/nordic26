@@ -1,3 +1,5 @@
 # Index
 
-Bootcamp '26, please document!
+Nordic Bootcamp '26, Stefán says: Please document!
+
+![Stefán](img/stefan.jpg)
