@@ -749,27 +749,22 @@
 
 <div><h1 id="extra-projects">Extra projects</h1>
 <h2 id="mqtt">MQTT</h2>
-<p>Frosti was interested in exploring the MQTT protocol. </p>
-<p>For initial testing on Windows, <a href="https://mqttx.app/">MQTTX</a> can be used. </p>
-<p><strong>Todo: Add mqttx connection info</strong></p>
-<p>This server is used for testing: <a href="https://test.mosquitto.org/">test.mosquitto.org</a></p>
-<p>Xiao ESP32C3 code can be found here: <a href="/docs/extra/frosti.ino">frosti</a> </p>
+<p>Frosti explored the MQTT protocol using a simple ESP32C3 demo setup.</p>
+<p>For initial testing on Windows, <a href="https://mqttx.app/">MQTTX</a> can be used.</p>
+<p><strong>Todo: Add MQTTX connection info</strong></p>
+<p>The public test broker used is: <a href="https://test.mosquitto.org/">test.mosquitto.org</a></p>
+<p>Xiao ESP32C3 code can be found here: <a href="/docs/extra/frosti.ino">frosti</a></p>
 <h3 id="what-the-esp32-code-does">What the ESP32 code does</h3>
-<p>The ESP32C3 connects to WiFi and then connects to an MQTT broker.<br>
-It publishes small JSON messages regularly and listens for incoming commands.</p>
+<p>The ESP32C3 connects to WiFi, then connects to the MQTT broker and starts publishing plain text messages.<br>
+It also listens for incoming messages and prints them to the Serial monitor.</p>
 <h3 id="features">Features</h3>
 <ul>
-<li><strong>Connects to WiFi</strong> and keeps reconnecting automatically if WiFi drops</li>
-<li><strong>Connects to MQTT broker</strong> and reconnects automatically if MQTT disconnects</li>
-<li><strong>Publishes JSON messages</strong>:</li>
-<li><code>frosti/status</code> every 60 seconds (random status message)</li>
-<li><code>frosti/data</code> every 30 seconds (random value 0–100)</li>
-<li><strong>Subscribes to commands</strong>:</li>
-<li>Listens on <code>frosti/esp</code> and prints received messages to Serial</li>
-<li>Attempts to parse JSON payloads, numbers, or plain text</li>
-<li><strong>Presence / LWT support</strong>:</li>
-<li>Publishes <code>frosti/presence</code> with <code>"online"</code> (retained)</li>
-<li>Broker publishes <code>"offline"</code> automatically if device disconnects unexpectedly</li>
+<li>Connects to WiFi and reconnects automatically if the connection drops</li>
+<li>Connects to the MQTT broker and reconnects automatically if MQTT disconnects</li>
+<li>Publishes a random status string to:</li>
+<li><code>frosti/status</code> every 10 seconds</li>
+<li>Subscribes to:</li>
+<li><code>frosti/esp</code> and prints received payloads to Serial</li>
 </ul>
 <h3 id="terminal-commands-on-linux">Terminal commands on Linux</h3>
 <p>To listen for messages:</p>
