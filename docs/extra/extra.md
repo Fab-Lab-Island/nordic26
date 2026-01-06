@@ -10,7 +10,7 @@ For initial testing on Windows, [MQTTX](https://mqttx.app/) can be used.
 
 The public test broker used is: [test.mosquitto.org](https://test.mosquitto.org/)
 
-Xiao ESP32C3 code can be found here: [frosti](/extra/frosti/frosti.ino)
+Xiao ESP32C3 code can be found here: [frosti](../extra/frosti/frosti.ino)
 
 ### What the ESP32 code does
 
