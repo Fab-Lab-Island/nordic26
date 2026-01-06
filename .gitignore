@@ -1,0 +1,15 @@
+# Environment variables (local only)
+.env
+
+# MkDocs build output (generated)
+site/
+
+# Python virtual environment (local)
+.venv/
+
+# Python cache / bytecode (generated)
+__pycache__/
+*.py[cod]
+
+# OS-specific junk
+.DS_Store
