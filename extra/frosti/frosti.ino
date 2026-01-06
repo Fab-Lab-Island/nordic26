@@ -32,16 +32,10 @@ unsigned long lastPublishMs = 0;
 
 // -------------------- Random message list --------------------
 const char* statusMessages[] = {
-  "hello from frosti",
-  "mqtt is fun",
-  "xiao esp32c3 online",
-  "status: all good",
-  "status: still running",
-  "status: coffee time",
-  "status: ping",
-  "status: ok",
-  "status: test message",
-  "status: end"
+  "Hæ, ég heiti Frosti!",
+  "Frosta í framboð!",
+  "Frosti er flottastur!",
+  "Frostmannaeyjar eru bestar!"
 };
 const int STATUS_MSG_COUNT = sizeof(statusMessages) / sizeof(statusMessages[0]);
 
