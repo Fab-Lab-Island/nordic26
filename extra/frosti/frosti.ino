@@ -1,7 +1,7 @@
 #include <WiFi.h>
-#include <PubSubClient.h>
+#include <PubSubClient.h> // Install library: PubSub by Nick O'Leary
 #include <Wire.h>
-#include <U8g2lib.h>
+#include <U8g2lib.h> // Install libary: U8g2 by olikraus
 
 // ========= USER SETTINGS =========
 const char* ssid     = "Stettin-Gestir";
