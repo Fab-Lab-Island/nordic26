@@ -488,45 +488,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="MQTT">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#what-the-esp32-code-does" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What the ESP32 code does
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#features" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Features
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#terminal-commands-on-linux" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Terminal commands on Linux
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
@@ -534,6 +495,17 @@
     <span class="md-ellipsis">
       
         MQTT with some Grove stuff (Seeed studio kit)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#real-communication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Real communication
       
     </span>
   </a>
@@ -877,45 +849,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="MQTT">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#what-the-esp32-code-does" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What the ESP32 code does
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#features" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Features
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#terminal-commands-on-linux" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Terminal commands on Linux
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
@@ -923,6 +856,17 @@
     <span class="md-ellipsis">
       
         MQTT with some Grove stuff (Seeed studio kit)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#real-communication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Real communication
       
     </span>
   </a>
@@ -964,48 +908,38 @@
 
 <div><h1 id="extra-projects">Extra projects</h1>
 <h2 id="mqtt">MQTT</h2>
-<p>Frosti explored the MQTT protocol using a simple ESP32C3 demo setup.</p>
+<p>Frosti explored the <a href="https://en.wikipedia.org/wiki/MQTT">MQTT</a> protocol using a simple ESP32C3 demo setup.</p>
 <p>For initial testing on Windows, <a href="https://mqttx.app/">MQTTX</a> can be used.</p>
 <p><strong>Todo: Add MQTTX connection info</strong></p>
 <p>The public test broker used is: <a href="https://test.mosquitto.org/">test.mosquitto.org</a></p>
-<p>Xiao ESP32C3 code can be found here: <a href="../frosti/frosti.ino">frosti</a></p>
-<h3 id="what-the-esp32-code-does">What the ESP32 code does</h3>
-<p>The ESP32C3 connects to WiFi, then connects to the MQTT broker and starts publishing plain text messages.<br>
-It also listens for incoming messages and prints them to the Serial monitor.</p>
-<h3 id="features">Features</h3>
-<ul>
-<li>Connects to WiFi and reconnects automatically if the connection drops</li>
-<li>Connects to the MQTT broker and reconnects automatically if MQTT disconnects</li>
-<li>Publishes a random status string to:</li>
-<li><code>frosti/status</code> every 10 seconds</li>
-<li>Subscribes to:</li>
-<li><code>frosti/esp</code> and prints received payloads to Serial</li>
-</ul>
-<h3 id="terminal-commands-on-linux">Terminal commands on Linux</h3>
-<p>To listen for messages:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>mosquitto_sub -h test.mosquitto.org -p 1883 -V mqttv311 -t 'frosti/#' -v -d
-</code></pre></div>
-<p>To send a command:
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>mosquitto_pub -h test.mosquitto.org -p 1883 -V mqttv311   -t 'frosti/esp' -m '{"cmd":"blink","n":3}'
-</code></pre></div>
 <h2 id="mqtt-with-some-grove-stuff-seeed-studio-kit">MQTT with some Grove stuff (Seeed studio kit)</h2>
-<p>Frosti now wanted to test out the massive kit he bought. We started by connected a variable resistor to it. Connection is simple, just use the included wires to join the sensor to the expansion board. </p>
+<p>The ESP32C3 connects to WiFi, then connects to the MQTT broker and starts publishing information. After getting the basics working, Frosti wanted to test out the massive kit he bought. We started by connected a variable resistor to it. Connection is simple, just use the included wires to join the sensor to the expansion board. </p>
 <p>ChatGPT then generated the code to get the readings, it's just analog reading from pin A0. </p>
 <p>Once that was working, we again connected to the test.mesquitto.org server and published the data. </p>
 <p>Using this command on the terminal (linux) we recieved the data fine. </p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>mosquitto_sub -h test.mosquitto.org -p 1883 -t "frosti/b1/telemetry" -v
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>mosquitto_sub -h test.mosquitto.org -p 1883 -t "frosti/b1/telemetry" -v
 </code></pre></div>
 <p>we recieved the data just fine: </p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>frosti/b1/telemetry {"device":"frosti-b1","seq":314,"raw":2507,"percent":61.2,"voltage":2.02}
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>frosti/b1/telemetry {"device":"frosti-b1","seq":315,"raw":2508,"percent":61.2,"voltage":2.02}
-<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>frosti/b1/telemetry {"device":"frosti-b1","seq":0,"raw":2506,"percent":61.2,"voltage":2.02}
-<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>frosti/b1/telemetry {"device":"frosti-b1","seq":1,"raw":2511,"percent":61.3,"voltage":2.02}
-<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>frosti/b1/telemetry {"device":"frosti-b1","seq":2,"raw":1593,"percent":38.9,"voltage":1.28}
-<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>frosti/b1/telemetry {"device":"frosti-b1","seq":3,"raw":4095,"percent":100.0,"voltage":3.30}
-<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>frosti/b1/telemetry {"device":"frosti-b1","seq":4,"raw":221,"percent":5.4,"voltage":0.18}
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>frosti/b1/telemetry {"device":"frosti-b1","seq":314,"raw":2507,"percent":61.2,"voltage":2.02}
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>frosti/b1/telemetry {"device":"frosti-b1","seq":315,"raw":2508,"percent":61.2,"voltage":2.02}
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>frosti/b1/telemetry {"device":"frosti-b1","seq":0,"raw":2506,"percent":61.2,"voltage":2.02}
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>frosti/b1/telemetry {"device":"frosti-b1","seq":1,"raw":2511,"percent":61.3,"voltage":2.02}
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>frosti/b1/telemetry {"device":"frosti-b1","seq":2,"raw":1593,"percent":38.9,"voltage":1.28}
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>frosti/b1/telemetry {"device":"frosti-b1","seq":3,"raw":4095,"percent":100.0,"voltage":3.30}
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>frosti/b1/telemetry {"device":"frosti-b1","seq":4,"raw":221,"percent":5.4,"voltage":0.18}
 </code></pre></div>
+<p>Xiao ESP32C3 code can be found here: <a href="/extra/mqttsensorv1.ino">First version</a></p>
 <p>Next we included the built in OLED on the Grove expansion board! </p>
-<p><img alt="Frosti + ESP32C3 + MQTT == FUN FUN FUN!" src="../../img/extra/frostiesp.jpg"></p></div>
+<p><img alt="Frosti + ESP32C3 + MQTT == FUN FUN FUN!" src="../../img/extra/frostiesp.jpg"></p>
+<h2 id="real-communication">Real communication</h2>
+<p>Next Frosti created his first small MQTT network! </p>
+<p>Two ESP32C3 devices, B1 and B2 respectively, serve as a controller and a light. </p>
+<p>It's meant to simulate a real sensor reading somewhere far away, which then turn on a warning indicator (possibly a storm warning, Vestmannaeyjar?).</p>
+<p>Fun stuff! </p>
+<ul>
+<li><a href="/extra/mqttcontroller.ino">Controller</a></li>
+<li><a href="/extra/mqttlight.ino">Light</a></li>
+</ul></div>
 
 
 
@@ -1053,7 +987,6 @@ It also listens for incoming messages and prints them to the Serial monitor.</p>
     </span>
     <nav>
       
-        <a href="mailto:hanndoddi@gmail.com">hanndoddi</a>, 
         <a href="mailto:jarni@jarni.net">Árni Björnsson</a>, 
         <a href="mailto:arni.bjornsson@vma.is">Árni Björnsson - VMA</a>
     </nav>
