@@ -480,32 +480,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#mqtt" class="md-nav__link">
+  <a href="#mqtt-frosti-and-arni" class="md-nav__link">
     <span class="md-ellipsis">
       
-        MQTT
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mqtt-with-some-grove-stuff-seeed-studio-kit" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        MQTT with some Grove stuff (Seeed studio kit)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#real-communication" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Real communication
+        MQTT: Frosti and Árni
       
     </span>
   </a>
@@ -841,32 +819,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#mqtt" class="md-nav__link">
+  <a href="#mqtt-frosti-and-arni" class="md-nav__link">
     <span class="md-ellipsis">
       
-        MQTT
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mqtt-with-some-grove-stuff-seeed-studio-kit" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        MQTT with some Grove stuff (Seeed studio kit)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#real-communication" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Real communication
+        MQTT: Frosti and Árni
       
     </span>
   </a>
@@ -907,12 +863,12 @@
 
 
 <div><h1 id="extra-projects">Extra projects</h1>
-<h2 id="mqtt">MQTT</h2>
+<h2 id="mqtt-frosti-and-arni">MQTT: Frosti and Árni</h2>
 <p>Frosti explored the <a href="https://en.wikipedia.org/wiki/MQTT">MQTT</a> protocol using a simple ESP32C3 demo setup.</p>
 <p>For initial testing on Windows, <a href="https://mqttx.app/">MQTTX</a> can be used.</p>
 <p><strong>Todo: Add MQTTX connection info</strong></p>
 <p>The public test broker used is: <a href="https://test.mosquitto.org/">test.mosquitto.org</a></p>
-<h2 id="mqtt-with-some-grove-stuff-seeed-studio-kit">MQTT with some Grove stuff (Seeed studio kit)</h2>
+<p><strong>MQTT with some Grove stuff (Seeed studio kit)</strong></p>
 <p>The ESP32C3 connects to WiFi, then connects to the MQTT broker and starts publishing information. After getting the basics working, Frosti wanted to test out the massive kit he bought. We started by connected a variable resistor to it. Connection is simple, just use the included wires to join the sensor to the expansion board. </p>
 <p>ChatGPT then generated the code to get the readings, it's just analog reading from pin A0. </p>
 <p>Once that was working, we again connected to the test.mesquitto.org server and published the data. </p>
@@ -931,7 +887,7 @@
 <p>Xiao ESP32C3 code can be found here: <a href="../mqttsensorv1.ino">First version</a></p>
 <p>Next we included the built in OLED on the Grove expansion board! </p>
 <p><img alt="Frosti + ESP32C3 + MQTT == FUN FUN FUN!" src="../../img/extra/frostiesp.jpg"></p>
-<h2 id="real-communication">Real communication</h2>
+<p><strong>Real communication</strong></p>
 <p>Next Frosti created his first small MQTT network! </p>
 <p>Two ESP32C3 devices, B1 and B2 respectively, serve as a controller and a light. </p>
 <p>It's meant to simulate a real sensor reading somewhere far away, which then turn on a warning indicator (possibly a storm warning, Vestmannaeyjar?).</p>
