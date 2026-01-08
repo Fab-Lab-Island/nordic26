@@ -1,5 +1,6 @@
 # Tufting
 
+![ ](../img/img_silkscreen/TuftingGroup700x525.jpg)
 
 # Creating 3D models from 2D images
 
@@ -24,3 +25,5 @@ The workshop...
 
     Use...
 
+
+![ ](../img/img_silkscreen/Tufting1_300x400.jpg)
