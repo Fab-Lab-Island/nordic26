@@ -2,6 +2,10 @@
 
 ![ ](../img/img_silkscreen/SilkscreenWorkshop1000x492.jpg)
 
+## About the workshop
+
+The workshop began with a 2 hours program where Lars Beck taught the process. Then it was ongoing throught the bootcamp. 
+
 ## MiScreen A4
 
 In this workshop the [MiScreen a4](https://www.risoprinter.de/en/products/screen-printing/riso-miscreen-a4) machine was used to create the silkscreen.
@@ -58,6 +62,7 @@ In this workshop the [MiScreen a4](https://www.risoprinter.de/en/products/screen
 
     * Choose **File** and then **Export as**. Choose the .png format for exporting.
 
+    ![ ](../img/img_silkscreen/Jeep_Dithering700x415.jpg)
 
 ### Step 3
     
