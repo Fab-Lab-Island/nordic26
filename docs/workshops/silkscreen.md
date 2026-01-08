@@ -84,6 +84,8 @@ In this workshop the [MiScreen a4](https://www.risoprinter.de/en/products/screen
 
     * Press firmly on top of the machine. Hold the pressure until the machine has stopped.
 
+    ![alt text](../img/img_silkscreen/PlacingInMachine700x525.jpg)  
+
 ## Step 4
 
 !!!note "Silkscreen printing"
