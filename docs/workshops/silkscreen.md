@@ -90,7 +90,7 @@ The workshop began with a 2 hours program where Lars Beck taught the process. Th
 
     ![alt text](../img/img_silkscreen/PlacingInMachine700x525.jpg)  
 
-## Step 4
+### Step 4
 
 !!!note "Silkscreen printing"
 
