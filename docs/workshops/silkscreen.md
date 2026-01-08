@@ -68,6 +68,16 @@ The workshop began with a 2 hours program where Lars Beck taught the process. Th
 
     ![ ](../img/img_silkscreen/Jeep_Dithering700x415.jpg)
 
+!!!note "Different way to dither"
+
+    * Use Gimp
+
+    * Choose **Filters** -> **Distortion** -> **Newsprint**.
+
+    * Choose between differents shapes of filters. The cirkle gives you a newspaper look. The size of the shape will also give different results. 
+
+    
+
 ### Step 3
     
 !!!note "Prepairing the image for Miscreen A4"
@@ -104,6 +114,7 @@ The workshop began with a 2 hours program where Lars Beck taught the process. Th
     This should only be done in one movement. The results will not be as good if you go more than once over the area.
 
     * Remove the frame quickly, so that the paint won´t dry with the frame on top of the image.
+
 
 
 
