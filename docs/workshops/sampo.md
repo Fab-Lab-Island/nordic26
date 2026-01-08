@@ -1,6 +1,6 @@
 # Sampo milling system
 
-![ ](../img/extra/MachineGroup700x525.jpg)
+![ ](../img/img_sampoMilling/MachineGroup700x525.jpg)
 
 ## About the project
 
@@ -20,8 +20,7 @@ The ...
 
     Use...
 
-![ ](../img/extra/MachineSandJ_700x525.jpg)
+![ ](../img/img_sampoMilling/MachineSandJ_700x525.jpg)
 
-![ ](../img/extra/MachineTalk700x525.jpg)
-
+![ ](../img/img_sampoMilling/MachineTalk700x525.jpg)
 
