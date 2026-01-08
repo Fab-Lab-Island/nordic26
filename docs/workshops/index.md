@@ -1,18 +1,5 @@
 # Let's report on our workshops!
 
-## Generative AI
+During the week, multiple workshops took place, and people were split into groups to attend them. Meanwhile, a handful of wild, free-spirited wanderers drifted between the groups, ebbing and flowing and creating a beautiful synergy.
 
-ComfyUI and the Hunyuan 2.1 model
-
-## Xtool Metal FAB
-
-## Tufting
-
-## Xtool F2 Ultra
-
-Frosti from Vestmannaeyjar
-
-
-## Silkscreen
-
-Check out silkscreen printing [here](silkscreen.md)
+On these pages, we'll document these workshops. 
