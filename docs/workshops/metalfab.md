@@ -1,4 +1,4 @@
-# xTool MetalFab and xTool F2
+# xTool MetalFab and xTool F2 Ultra
 
 ![ ](../img/img_metalfab/SteelSign700x525.jpg)
 
@@ -11,7 +11,9 @@ The workshop...
 !!!note "The..."
 
     Use this format for links:
-    [text here..](https://www.risoprinter.de/en/products/screen-printing/riso-miscreen-a4) machine was used to create the silkscreen.
+    The [xTool Metal Fab - find link???](https://www.xtool.eu/products/xtool-f2-ultra-60w-mopa-40w-diode-dual-laser-engraver) and the [xTool F2 Ultra](https://www.xtool.eu/products/xtool-f2-ultra-60w-mopa-40w-diode-dual-laser-engraver) machine was used...
+
+![ ](../img/img_metalfab/Metal_Selfoss600x800.jpg)
 
 ## Workflow
 
