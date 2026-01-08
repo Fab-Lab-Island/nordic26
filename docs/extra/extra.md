@@ -67,4 +67,4 @@ frosti/b1/telemetry {"device":"frosti-b1","seq":4,"raw":221,"percent":5.4,"volta
 
 Next we included the built in OLED on the Grove expansion board! 
 
-**Todo: Add picture**
+![Frosti + ESP32C3 + MQTT == FUN FUN FUN!](../img/extra/frostiesp.jpg)
