@@ -57,7 +57,7 @@ This workshop was mostly in Karen´s hands. She began by teaching others how to 
  
 !!! info "Fill on and Stroke paint off"
     
-     * Next you click on **Object** and then **Fill and stroke**.
+     * Next you click on **Object** -> **Fill and stroke**.
      * Turn **Fill** on and turn off **Stroke paint**.
 
 !!! info "Determine the size"
@@ -87,19 +87,36 @@ This workshop was mostly in Karen´s hands. She began by teaching others how to 
 
 !!! info "Resize the working area"
     
-     * Click on **File** and **Document properties**. Then you can see a small button for resizing the page to content.
+     * Click on **File** and **Document properties**.
+     * Click on the small button for resizing the page to content.
 
     ![ ](../img/img_embroidery/Bird_ResizeToContent700x351.jpg)
 
 !!! info "Params"
     
-     * Choose **Extensions** -> **InkStitch** -> **Params**.
+     * BEGIN BY CHOOSING **FILE** -> **SAVE**. This is because the program sometimes becomes unresponsive in the next step.
+     * Then choose **Extensions** -> **InkStitch** -> **Params**.
+     * Note that it will open up in another window. 
+     * Also note that this will take time to open up.
 
     ![ ](../img/img_embroidery/Bird_Params700x567.jpg)
 
+!!! info "Settings and preview params"
+    
+    * In params you can see a preview of the path that will be embroidered. 
+    * You can also adjust settings.
+    * When you are satisfied, click on **Apply and 
+
+    ![](../img/img_embroidery/Bird_Params700x567.jpg)
+
+!!! info "A .pes file generates the sewing path"
+    
+    In the image below you can see how the .pes file has generated a path for the embroidery machine. You can see how the thread will be laid down.
 
 
 
-
+## Example of cap
 
 ![ ](../img/img_embroidery/Cap_375x500.jpg)
+
+
