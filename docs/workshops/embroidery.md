@@ -6,6 +6,8 @@
 
 This workshop was mostly in Karen´s hands. She began by teaching others how to prepaire files and use the embroidery machine. Later on the participants assisted others. This was a flowing workshop throughout the whole bootcamp. 
 
+Last year we had the Icelandic bootcamp in Húsavík and we also had an embroidery workshop there. Anna Reneau covered some of the basics there. See [link here](https://fab-lab-island.github.io/fli-bootcamp-2025/verkefnavinna/Saumavel/). Some of the documentation here below is based on information from this site.
+
 ## The embroidery machine
 
 !!!note "Brother PR680W 6-Needle embroidery machine"
@@ -41,15 +43,13 @@ This workshop was mostly in Karen´s hands. She began by teaching others how to 
      * Open the Inkscape program. 
      * Choose **File** -> **Upload**.
      * Choose the image you want to upload and click on **OK**.
-
-     ![ ](../img/img_embroidery/Bird_Multicolour_Apply700x438.jpg)
-     
+   
 !!! info "Trace bitmap with multicolor"
     
      * Choose **Path** -> **Trace bitmap**.
      * Click on the middle option: **Multicolor**.
      * Click on **Apply**.
-     * Under **Detection mode** choose **Color**.
+     * Under **Detection mode** and choose **Color**.
      
     ![ ](../img/img_embroidery/Bird_Multicolour_Apply700x438.jpg)
 
@@ -60,10 +60,18 @@ This workshop was mostly in Karen´s hands. She began by teaching others how to 
 
      ![ ](../img/img_embroidery/Bird_DeleteImage600x521.jpg)
  
-!!! info "Fill on and Stroke paint off"
+!!! info "Fill on and Stroke paint off (for filled areas)"
     
      * Next you click on **Object** -> **Fill and stroke**.
      * Turn **Fill** on and turn off **Stroke paint**.
+
+!!! info "Fill off and Stroke paint on (for lines)"
+    
+     * If you want to stitch lines you have to turn on the stroke and make the line thicker.
+     * Click on **Object** -> **Fill and stroke**.
+     * Turn **Fill** off and turn on **Stroke paint**.
+     * Convert the line to satin by choosing: **Extensions** -> **Ink/Stitch** -> **Tools: Satin** -> **convert line to satin**.
+     * Minimum thickness of the satin line is 1.5mm but it is ideal to set it to 2mm or more.
 
 !!! info "Determine the size"
     
@@ -97,9 +105,18 @@ This workshop was mostly in Karen´s hands. She began by teaching others how to 
 
     ![ ](../img/img_embroidery/Bird_ResizeToContent700x351.jpg)
 
-!!! info "Params"
+
+!!! tip "Preview your work"
+    
+     * Check out how the preview of your work by choosing **Extensions** -> **InkStitch** -> **Visualize and export** -> **Simulator**.
+
+!!! warning "Save now!"
     
      * BEGIN BY CHOOSING **FILE** -> **SAVE**. This is because the program sometimes becomes unresponsive in the next step.
+     
+
+!!! info "Settings and preview params"
+    
      * Then choose **Extensions** -> **InkStitch** -> **Params**.
      * Note that it will open up in another window. 
      * Also note that this will take time to open up.
@@ -118,7 +135,9 @@ This workshop was mostly in Karen´s hands. She began by teaching others how to 
     
     In the image below you can see how the .pes file has generated a path for the embroidery machine. You can see how the thread will be laid down.
 
-
+!!! warning "Do not save the .pes file until at the end"
+    
+     * It can be a problem to edit a .pes file after it has been saved, so save it after you have made all changes and saved the file as an .svg file first.
 
 ## Example of cap
 

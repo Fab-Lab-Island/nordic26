@@ -20,12 +20,11 @@
 
 ![ ](../img/extra/Headphones500x667.jpg)
 
-## Stem Iceland
+## Stem Iceland: Huld Hafliðadóttir
 
 ![ ](../img/extra/stemIceland_700x525.jpg)
 
-
-
+## Prusa Core One
 
 
 
