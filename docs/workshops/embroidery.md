@@ -44,13 +44,18 @@ This workshop was mostly in Karen´s hands. She began by teaching others how to 
 
      ![ ](../img/img_embroidery/Bird_Multicolour_Apply700x438.jpg)
      
-!!! info "Fill on and Stroke paint off"
+!!! info "Trace bitmap with multicolor"
     
-     * Next you click on **Object** and then **Fill and stroke**.
-     * Turn **Fill** on and turn off **Stroke paint**.
-      
+     * Choose **Path** -> **Trace bitmap**.
+     * Click on the middle option: **Multicolor**.
+     * Click on **Apply**.
+     * Under **Detection mode** choose **Color**.
+     
+    ![ ](../img/img_embroidery/Bird_Multicolour_Apply700x438.jpg)
+
 !!! info "Delete the original image"
     
+     * The program has created a vector drawing that lays on top of the original. Drag the image to one side, so that the other one appears. 
      * Delete the original image.
 
      ![ ](../img/img_embroidery/Bird_DeleteImage600x521.jpg)
@@ -107,7 +112,7 @@ This workshop was mostly in Karen´s hands. She began by teaching others how to 
     * You can also adjust settings.
     * When you are satisfied, click on **Apply and 
 
-    ![](../img/img_embroidery/Bird_Params700x567.jpg)
+    
 
 !!! info "A .pes file generates the sewing path"
     
