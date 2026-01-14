@@ -128,7 +128,7 @@ Last year we had the Icelandic bootcamp in Húsavík and we also had an embroide
     
     * In params you can see a preview of the path that will be embroidered. 
     * You can also adjust settings.
-    * When you are satisfied, click on **Apply and close**.
+    * When you are satisfied, click on **Apply and quit**.
 
      ![ ](../img/img_embroidery/Bird_ParamsBeforeRearranging700x415.jpg)
 
