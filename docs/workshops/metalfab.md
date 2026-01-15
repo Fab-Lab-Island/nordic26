@@ -4,23 +4,18 @@
 
 ## About the workshop
 
-The workshop...
+The workshop was run by Axel Flex Árnason and Jón Þór Sigurðsson. Participants projects were diverse, combining the cutting process in the xTool MetalFab laser and rasterizing in the xTool F2 Ultra.
 
 ## The machines
 
-!!!note "The..."
+!!!note "The xTools"
 
     Use this format for links:
     The [xTool MetalFab](https://www.xtool.com/pages/xtool-metalfab-laser-welder-and-cnc-cutter) and the [xTool F2 Ultra](https://www.xtool.eu/products/xtool-f2-ultra-60w-mopa-40w-diode-dual-laser-engraver) machine was used...
 
 ![ ](../img/img_metalfab/Metal_Selfoss600x800.jpg)
 
-## Workflow
-
-!!!success "?"
-
-    Use 
-
+### Projects
 
 ![ ](../img/img_metalfab/F2_700x525.jpg)
 
