@@ -20,6 +20,10 @@ The workshop began with a 2 hours program where Lars Beck Johannsen taught the p
 
     The resolution of the image to be used has to be set to 203 DPI when using the MiScreen A4 machine. The file format to be used can for example be .jpg, .jpeg, .png, .bmp and .pdf.
 
+!!!success "How to choose a Mesh and Ink"
+
+    On this site, the manufacturer explains how to mesh behaves, and what you should consider according to different materials. (https://goccoproforum.net/en/tips-meshcount/)
+
 !!!note "Dithering or not"
 
     When an image is not dithered the print will give you a simple, flat surface. When you use some type of dithering you get different textures, f.ex. like the texture of a newsprint paper. If the image is in grayscale and you want the shading to appear on the print, you have to dither the image.
