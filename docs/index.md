@@ -1,6 +1,8 @@
 # Fab Lab Nordic Bootcamp 2026
 
-This years Nordic Bootcamp is hosted by the wonderful [Fab Lab Húsavík](https://fablab.is/starfsstodvar/husavik/)! 
+This years Nordic Bootcamp is hosted by the wonderful [Fab Lab Húsavík](https://fablab.is/starfsstodvar/husavik/)!
+
+
 
 ## Location
 
